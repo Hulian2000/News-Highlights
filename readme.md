@@ -1,5 +1,4 @@
 ##Description.
-
 News-Highlight is a web application that is meant to show on what is happening in the current affairs all over the world. The website has the home page, that has a list of all sources of news sorted in categories. A user will have to click on Read More on a specific source to view artciles on the site Click here to see the live site
 
   ##specifications.
