@@ -1,8 +1,14 @@
+##NEWS - HIGHLIGHTS.
 
 News Highlight is a web application meant to catch up hard workers on the current affairs
-May 11th, 2018
-By Richard Waweru
-Description
+September 7th,2019.
+
+##Author.
+
+Hulian Juba.
+
+##Description
+
 News Highlight is a web application that is meant to catch up hard workers on current affairs happening all over the world. The website has the home page, that has a list of all sources of news sorted in categories. A user will have to click on Read More on a specific source to view artciles on the site Click here to see the live site
 
 Specifications
