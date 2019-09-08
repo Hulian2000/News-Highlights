@@ -1,8 +1,8 @@
 import os
 
 class Config:
-    NEWS_HIGHLIGHT_API_BASE_URL ='https://newsapi.org/v2/sources?&apiKey={}'
-    NEWS_API_KEY = os.environ.get('NEWS_API_KEY')
+    NEWS_HIGHLIGHT_BASE_URL ='https://newsapi.org/v2/sources?&apiKey={}'
+    API_KEY = os.environ.get('API_KEY')
     TOP_HEADLINES_URL ='https://newsapi.org/v2/top-headlines?sources={}&apiKey={}'
     EVERYTHING_URL_KEY ='https://newsapi.org/v2/everything?domains=wsj.com,nytimes.com&apiKey={}'
 
