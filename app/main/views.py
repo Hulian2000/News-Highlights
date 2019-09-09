@@ -15,3 +15,12 @@ def index():
 
     title = 'News Top highlights'
     return render_template(title= title,Sources=Sources,Everything=Everything)
+
+@main.route('sources/<sources>')
+def Top_Headlines(Sources):
+    sources = get_Sources()
+    Top_Headlines = get_top_headlines(source)
+    print(Top_Headlines)
+
+    return render_template('Top-headlines.html',sources=sources,Top_Headlines=Top_Headlines)
+    
