@@ -1,7 +1,7 @@
 from flask import render_template,request,redirect,url_for
 from . import main
-from ..requests import get_Sources(), get_everything, get_top_headlines
-from ..models import Sources, Top_Headlines, Everything 
+from ..requests import get_sources,get_everything,get_top_headlines
+from ..models import Sources
 
 # views
 @main.route('/')

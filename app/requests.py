@@ -1,5 +1,5 @@
 import urllib.request,json
-from .models import Source, Everything, Top_headlines
+from .models import Sources, Everything, Top_Headlines
 from config import DevConfig
 
 #Getting the Api key
