@@ -13,8 +13,8 @@ headlines_url = None
 def configure_request(app):
     global api_key, base_url ,everything_url, headlines_url
     
-    api_key = app.config['NEWS_HIGHLIGHT_API_KEY']
-    base_url = app.config['NEWS_HIGHLIGHT_API_BASE_URL']
+    api_key = app.config['API_KEY']
+    base_url = app.config['NEWS_HIGHLIGHT_BASE_URL']
     headlines_url = app.config['TOP_HEADLINES_URL']
     everything_url = app.config['EVERYTHING_URL_KEY']
 

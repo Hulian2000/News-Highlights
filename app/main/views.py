@@ -9,16 +9,16 @@ def index():
     '''
     view root function that returns the index page and its data
     '''
-    Sources = get_Sources
-    Everything = get_everything
-    print(Sources)
+    sources = get_sources()
+    Everything = get_everything()
+    print(sources)
 
     title = 'News Top highlights'
-    return render_template(title= title,Sources=Sources,Everything=Everything)
+    return render_template('index.html',title= title,sources=sources,Everything=Everything)
 
-@main.route('sources/<sources>')
-def Top_Headlines(Sources):
-    sources = get_Sources()
+@main.route('/sources/<sources>')
+def Top_Headlines(sources):
+    sources = get_sources()
     Top_Headlines = get_top_headlines(source)
     print(Top_Headlines)
 
